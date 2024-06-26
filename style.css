@@ -307,46 +307,58 @@ margin-top: 1.5cm;
 .projects .title::after{
     content: "what ive done";
 }
-.projects .carousel .card{
-    background: #ADEFD1;
+.projects  .card{
+    /* background: #ADEFD1; */
+    background-image: url("./images/football.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 200px;
     border: 6px;
     padding: 25px 35px;
     text-align: center;
-    overflow: hidden;
+    overflow: visible;
     transition: all 0.3s ease;
 }
-.projects .carousel .card:hover{
+/* .projects .card:hover{
     background: #00203F;
-}
-.projects .carousel .card .type{
+} */
+.projects .card .type{
         color: #000;
         font-family: 'Poppins', sans-serif;
 }
-.projects .carousel .card .box{
+.projects  .card .box{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     transition: all 0.3s ease;
+    margin-top: 200px;
 }
-.projects .carousel .card:hover .box{
+
+.project-text{
+    font-size: 23px;
+}
+.projects .card:hover .box{
     transform: scale(1.1);
 }
-.projects .carousel .card .text{
+.projects .card .text{
     font-size: 25px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    
 }
-.projects .carousel .card img{
+
+
+.projects .card img{
     height: auto;
     width: 400px;
     object-fit: cover;
-    border: 5px solid hsl(200, 40%, 70%);
+    /* border: 5px solid hsl(200, 40%, 70%); */
     transition: all 0.3s ease;
 }
-.projects .carousel .card:hover img{
+/* .projects .card:hover img{
     border-color: #ADEFD1;
-}
+} */
 .owl-dots{
     text-align: center;
     margin-top: 20px;
@@ -370,7 +382,7 @@ margin-top: 1.5cm;
 }
 
 
-.button {
+/* .button {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -385,7 +397,7 @@ margin-top: 1.5cm;
   user-select: none;
   -webkit-user-select: none;
   touch-action:auto;
-}
+} */
 
 
 
